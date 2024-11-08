@@ -1,0 +1,14 @@
+import { StyleSheet } from 'react-native';
+import { ThemedText } from '@/components/ThemedText';
+import { ThemedView } from '@/components/ThemedView';
+
+export function Banners() {
+
+  return (
+    <ThemedView>
+        <ThemedText>Banners</ThemedText>
+    </ThemedView>
+  );
+}
+
+
